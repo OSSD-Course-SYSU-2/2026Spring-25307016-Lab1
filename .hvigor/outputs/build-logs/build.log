@@ -20160,3 +20160,649 @@ Require stack:
 [2026-04-16T23:24:21.902] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-04-16T23:24:21.904] [DEBUG] debug-file - worker[0] exits with exit code 1.
 [2026-04-16T23:24:21.905] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-21T16:37:47.285] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T16:37:47.355] [DEBUG] debug-file - env: daemon=true
+[2026-04-21T16:37:47.286] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-21T16:37:48.223] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-21T16:37:48.295] [DEBUG] debug-file - java daemon started at port 45050 pid 21744
+[2026-04-21T16:37:48.335] [DEBUG] debug-file - session manager: set active socket. socketId=WYfOpQJeXC_ngKTUAAAB
+[2026-04-21T16:37:49.105] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:37:49.109] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T16:37:49.110] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T16:37:49.111] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T16:37:49.116] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T16:37:49.118] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-21T16:37:49.125] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T16:37:49.134] [DEBUG] debug-file - Cache service initialization finished in 8 ms 
+[2026-04-21T16:37:49.136] [DEBUG] debug-file - hvigorfile, resolving C:\Users\CY\Desktop\HelloHarmonyOS\hvigorfile.ts
+[2026-04-21T16:37:51.890] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:37:51.891] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:37:51.892] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:37:51.892] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T16:37:51.892] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T16:37:51.892] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T16:37:52.123] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T16:37:52.123] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T16:37:52.123] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:37:52.124] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T16:37:52.125] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T16:37:52.125] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T16:37:52.125] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T16:37:52.127] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T16:37:52.128] [DEBUG] debug-file - not found resModel json file in : C:\Users\CY\Desktop\HelloHarmonyOS\entry\src\ohosTest\module.json5
+[2026-04-21T16:37:52.137] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T16:37:52.139] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T16:37:52.144] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T16:37:52.148] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T16:37:52.190] [DEBUG] debug-file - Sdk init in 53 ms 
+[2026-04-21T16:37:52.197] [DEBUG] debug-file - Project task initialization takes 5 ms 
+[2026-04-21T16:37:52.198] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:37:52.198] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\CY\Desktop\HelloHarmonyOS\hvigorfile.ts
+[2026-04-21T16:37:52.198] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\CY\Desktop\HelloHarmonyOS\hvigorfile.ts
+[2026-04-21T16:37:52.199] [DEBUG] debug-file - hvigorfile, resolving C:\Users\CY\Desktop\HelloHarmonyOS\entry\hvigorfile.ts
+[2026-04-21T16:37:52.207] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:37:52.207] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:37:52.207] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:37:52.208] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T16:37:52.212] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\CY\Desktop\HelloHarmonyOS\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-04-21T16:37:52.231] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:37:52.231] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:37:52.232] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:37:52.232] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:37:52.232] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:37:52.233] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:37:52.233] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-04-21T16:37:52.233] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:37:52.233] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:37:52.234] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:37:52.234] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:37:52.234] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:37:52.234] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:37:52.234] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:37:52.235] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:37:52.235] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:37:52.235] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:37:52.235] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:37:52.235] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T16:37:52.242] [DEBUG] debug-file - Module entry task initialization takes 6 ms 
+[2026-04-21T16:37:52.242] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T16:37:52.243] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T16:37:52.243] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:37:52.243] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:37:52.243] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\CY\Desktop\HelloHarmonyOS\entry\hvigorfile.ts
+[2026-04-21T16:37:52.243] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\CY\Desktop\HelloHarmonyOS\entry\hvigorfile.ts
+[2026-04-21T16:37:52.333] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 90 ms 
+[2026-04-21T16:37:52.334] [DEBUG] debug-file - project has submodules:entry
+[2026-04-21T16:37:52.363] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T16:37:52.371] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T16:37:52.372] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:37:52.387] [DEBUG] debug-file - Module HelloHarmonyOS Collected Dependency: 
+[2026-04-21T16:37:52.387] [DEBUG] debug-file - Module HelloHarmonyOS's total dependency: 0
+[2026-04-21T16:37:52.388] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:37:52.392] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-04-21T16:37:52.392] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-04-21T16:37:52.396] [DEBUG] debug-file - Configuration phase cost:3 s 263 ms 
+[2026-04-21T16:37:52.399] [DEBUG] debug-file - Configuration task cost before running: 3 s 280 ms 
+[2026-04-21T16:37:52.405] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-04-21T16:37:52.406] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.416] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 7 ms .
+[2026-04-21T16:37:52.416] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.3455352783203125
+[2026-04-21T16:37:52.418] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2026-04-21T16:37:52.420] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-04-21T16:37:52.420] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.421] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04285430908203125
+[2026-04-21T16:37:52.421] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 303 ms 
+[2026-04-21T16:37:52.422] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2026-04-21T16:37:52.423] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-04-21T16:37:52.424] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.426] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.426] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.091033935546875
+[2026-04-21T16:37:52.426] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2026-04-21T16:37:52.427] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-04-21T16:37:52.427] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.014556884765625
+[2026-04-21T16:37:52.428] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 309 ms 
+[2026-04-21T16:37:52.428] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-04-21T16:37:52.430] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-04-21T16:37:52.430] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.433] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.433] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1330108642578125
+[2026-04-21T16:37:52.433] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2026-04-21T16:37:52.435] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-04-21T16:37:52.436] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.437] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.438] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.098968505859375
+[2026-04-21T16:37:52.438] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2026-04-21T16:37:52.440] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-04-21T16:37:52.440] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01470184326171875
+[2026-04-21T16:37:52.440] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 322 ms 
+[2026-04-21T16:37:52.441] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-04-21T16:37:52.442] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-04-21T16:37:52.450] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.451] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2026-04-21T16:37:52.451] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.23801422119140625
+[2026-04-21T16:37:52.451] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+[2026-04-21T16:37:52.457] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-04-21T16:37:52.457] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'C:\Users\CY\Desktop\HelloHarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2026-04-21T16:37:52.457] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2026-04-21T16:37:52.458] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.05938720703125
+[2026-04-21T16:37:52.458] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 339 ms 
+[2026-04-21T16:37:52.458] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2026-04-21T16:37:52.460] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-04-21T16:37:52.460] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014862060546875
+[2026-04-21T16:37:52.460] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 342 ms 
+[2026-04-21T16:37:52.460] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-04-21T16:37:52.462] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-04-21T16:37:52.466] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 3 ms .
+[2026-04-21T16:37:52.466] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.13199615478515625
+[2026-04-21T16:37:52.466] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2026-04-21T16:37:52.468] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-04-21T16:37:52.468] [DEBUG] debug-file - File: 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-04-21T16:37:52.470] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 2 ms 
+[2026-04-21T16:37:52.502] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2026-04-21T16:37:52.503] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 32 ms .
+[2026-04-21T16:37:52.503] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.307403564453125
+[2026-04-21T16:37:52.503] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 385 ms 
+[2026-04-21T16:37:52.503] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 36 ms 
+[2026-04-21T16:37:52.506] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-04-21T16:37:52.508] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.509] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2026-04-21T16:37:52.509] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.1393280029296875
+[2026-04-21T16:37:52.510] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2026-04-21T16:37:52.512] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-04-21T16:37:52.515] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.515] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.167938232421875
+[2026-04-21T16:37:52.516] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2026-04-21T16:37:52.517] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-04-21T16:37:52.519] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.519] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.144317626953125
+[2026-04-21T16:37:52.520] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessShareConfig...  
+[2026-04-21T16:37:52.522] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-04-21T16:37:52.522] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.524] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\startup\default\startup_config.json' does not exist.
+[2026-04-21T16:37:52.524] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2026-04-21T16:37:52.526] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.14517974853515625
+[2026-04-21T16:37:52.526] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 407 ms 
+[2026-04-21T16:37:52.527] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 5 ms 
+[2026-04-21T16:37:52.533] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-04-21T16:37:52.534] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0214691162109375
+[2026-04-21T16:37:52.534] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 416 ms 
+[2026-04-21T16:37:52.535] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2026-04-21T16:37:52.537] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-04-21T16:37:52.540] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-04-21T16:37:52.540] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.542] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.542] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.13964080810546875
+[2026-04-21T16:37:52.544] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2026-04-21T16:37:52.546] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-04-21T16:37:52.548] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.558] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 5 ms .
+[2026-04-21T16:37:52.558] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.53607177734375
+[2026-04-21T16:37:52.563] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2026-04-21T16:37:52.565] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-04-21T16:37:52.568] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.569] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.10810089111328125
+[2026-04-21T16:37:52.569] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2026-04-21T16:37:52.571] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-04-21T16:37:52.571] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-04-21T16:37:52.586] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 13 ms .
+[2026-04-21T16:37:52.586] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.6901702880859375
+[2026-04-21T16:37:52.588] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2026-04-21T16:37:52.589] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-04-21T16:37:52.589] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.590] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2026-04-21T16:37:52.590] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.07898712158203125
+[2026-04-21T16:37:52.590] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2026-04-21T16:37:52.592] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-04-21T16:37:52.593] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-04-21T16:37:52.595] [DEBUG] debug-file - Task 'entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.602] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\src\main\ets' has been changed.
+[2026-04-21T16:37:52.602] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 5 ms .
+[2026-04-21T16:37:52.621] [DEBUG] debug-file - build config:
+[2026-04-21T16:37:52.621] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS',
+  compileSdkVersion: 22,
+  compatibleSdkVersion: 22,
+  originCompatibleSdkVersion: '6.0.2(22)',
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***s',
+  etsLoaderVersion: '6.0.2.130',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '4a0e0297293d7a93a1a4b06a4a77edb6e6f48221a70668b6c621fa173a0ed997',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 22,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  buildDir: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  pkgContextInfo: {
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.25',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  useGetCurrentBundleName: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    lazyImportExclude: '',
+    lazyImportInclude: '',
+    ignoreCrossplatformCheck: false,
+    isHarDeduplicateEnabled: false,
+    skipOhModulesLint: false,
+    enableStrictCheckOHModule: false,
+    disableSendableCheckRules: [],
+    useDeclarationFileSignature: false,
+    customizedOptions: undefined,
+    integratedHsp: false,
+    isPreloadSoEnabled: false
+  },
+  executionMode: 'memory',
+  arkCompileCachePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  autoLazyFilter: undefined,
+  isHarDeduplicateEnabled: false,
+  intermediateHarDuplicateDirPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\har_duplicate\\default',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  lazyImportExclude: '',
+  lazyImportInclude: '',
+  ignoreCrossplatformCheck: false,
+  skipOhModulesLint: false,
+  enableStrictCheckOHModule: false,
+  disableSendableCheckRules: [],
+  useDeclarationFileSignature: false,
+  customizedOptions: undefined,
+  integratedHsp: false,
+  isPreloadSoEnabled: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  useNormalizedOHMUrl: true,
+  caseSensitiveCheck: true,
+  aceModuleJsonPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'de9c82ded1624496c08b3a5f57ae6daee0e1b4d1aebf1b6c5f19e76c10ec65fc',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:22:6.0.2.130:Release',
+  aceModuleRoot: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+      belongProjectPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS'
+    },
+    'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\.test\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+      belongProjectPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS'
+    },
+    'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\src\\ohosTest': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+      belongProjectPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS'
+    },
+    'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry',
+      belongProjectPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS'
+    },
+    'C:\\Users\\CY\\Desktop\\HelloHarmonyOS': {
+      moduleName: 'HelloHarmonyOS',
+      modulePkgPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS',
+      belongProjectPath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS'
+    }
+  },
+  pkgJsonFileHash: '71732f93dd32d7092772bf52aecc984d1368c3efac7f9fec6c7f62b50e35634f',
+  allModulePaths: [ 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: false,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'C:/Program Files/Huawei/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-04-21T16:37:52.622] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2026-04-21T16:37:52.624] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-04-21T16:37:52.624] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.625] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-04-21T16:37:52.626] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-04-21T16:37:52.627] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-04-21T16:37:52.627] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-04-21T16:37:52.628] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 2.0495452880859375
+[2026-04-21T16:37:52.630] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-04-21T16:37:52.630] [DEBUG] debug-file - Task 'entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.633] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.16306304931640625
+[2026-04-21T16:37:52.633] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 515 ms 
+[2026-04-21T16:37:52.634] [INFO] debug-file - Finished :entry:default@BuildJS... after 4 ms 
+[2026-04-21T16:37:52.635] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-04-21T16:37:52.636] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:37:52.637] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 2 ms .
+[2026-04-21T16:37:52.638] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.09722900390625
+[2026-04-21T16:37:52.638] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2026-04-21T16:38:01.719] [DEBUG] debug-file - Ark compile task finished.finished time is 205344439247100
+[2026-04-21T16:38:01.720] [DEBUG] debug-file - worker[4] has one work done.
+[2026-04-21T16:38:01.722] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-04-21T16:38:01.722] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-04-21T16:38:01.724] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 6 s 629 ms 
+[2026-04-21T16:38:01.725] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-04-21T16:38:01.725] [DEBUG] debug-file - File: 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:38:01.725] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-04-21T16:38:01.725] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:38:01.727] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2026-04-21T16:38:01.727] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.3397216796875
+[2026-04-21T16:38:01.727] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2026-04-21T16:38:01.728] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-04-21T16:38:01.728] [DEBUG] debug-file - File: 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:38:01.728] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:38:01.729] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.05934906005859375
+[2026-04-21T16:38:01.729] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 610 ms 
+[2026-04-21T16:38:01.729] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 1 ms 
+[2026-04-21T16:38:01.731] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-04-21T16:38:01.736] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2026-04-21T16:38:01.737] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 5 ms .
+[2026-04-21T16:38:01.738] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  '--pkg-context-path',
+  'C:\\Users\\CY\\Desktop\\HelloHarmonyOS\\entry\\build\\default\\intermediates\\loader\\default\\pkgContextInfo.json'
+]
+[2026-04-21T16:38:02.154] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-04-21T16:38:02.158] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.901885986328125
+[2026-04-21T16:38:02.158] [DEBUG] debug-file - runTaskFromQueue task cost before running: 13 s 40 ms 
+[2026-04-21T16:38:02.159] [INFO] debug-file - Finished :entry:default@PackageHap... after 428 ms 
+[2026-04-21T16:38:02.161] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-04-21T16:38:02.169] [DEBUG] debug-file - entry : default@PackingCheck cost memory 0.47725677490234375
+[2026-04-21T16:38:02.169] [DEBUG] debug-file - runTaskFromQueue task cost before running: 13 s 50 ms 
+[2026-04-21T16:38:02.169] [INFO] debug-file - Finished :entry:default@PackingCheck... after 8 ms 
+[2026-04-21T16:38:02.171] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-04-21T16:38:02.171] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\CY\Desktop\HelloHarmonyOS\build-profile.json5.
+[2026-04-21T16:38:02.173] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2026-04-21T16:38:02.173] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2026-04-21T16:38:02.174] [DEBUG] debug-file - entry : default@SignHap cost memory 0.08924102783203125
+[2026-04-21T16:38:02.174] [DEBUG] debug-file - runTaskFromQueue task cost before running: 13 s 56 ms 
+[2026-04-21T16:38:02.174] [INFO] debug-file - Finished :entry:default@SignHap... after 3 ms 
+[2026-04-21T16:38:02.176] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-04-21T16:38:02.177] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.09427642822265625
+[2026-04-21T16:38:02.177] [DEBUG] debug-file - runTaskFromQueue task cost before running: 13 s 59 ms 
+[2026-04-21T16:38:02.178] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 2 ms 
+[2026-04-21T16:38:02.178] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-04-21T16:38:02.178] [DEBUG] debug-file - entry : assembleHap cost memory 0.0128326416015625
+[2026-04-21T16:38:02.178] [DEBUG] debug-file - runTaskFromQueue task cost before running: 13 s 60 ms 
+[2026-04-21T16:38:02.178] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-04-21T16:38:02.191] [INFO] debug-file - BUILD SUCCESSFUL in 13 s 73 ms 
+[2026-04-21T16:38:02.192] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2026-04-21T16:38:02.192] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-04-21T16:38:02.192] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-04-21T16:38:02.192] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\CY\Desktop\HelloHarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-04-21T16:38:02.193] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-04-21T16:38:02.194] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-04-21T16:38:02.194] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessShareConfig is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2026-04-21T16:38:02.195] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2026-04-21T16:38:02.197] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:38:02.197] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:38:02.197] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:38:02.197] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:38:02.198] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\src\main\ets cache from map.
+[2026-04-21T16:38:02.198] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:38:02.198] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:38:02.199] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-04-21T16:38:02.199] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:4 ms .
+[2026-04-21T16:38:02.200] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:38:02.201] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:38:02.201] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:38:02.201] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:38:02.202] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:38:02.202] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-04-21T16:38:02.202] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:3 ms .
+[2026-04-21T16:38:02.202] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2026-04-21T16:38:02.203] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2026-04-21T16:38:02.203] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-04-21T16:38:02.203] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-04-21T16:38:02.203] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-04-21T16:38:02.204] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-04-21T16:38:02.205] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-04-21T16:38:02.205] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-04-21T16:38:02.206] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-04-21T16:38:02.207] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-04-21T16:38:02.207] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:5 ms .
+[2026-04-21T16:38:02.207] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2026-04-21T16:38:02.207] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-04-21T16:38:02.208] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2026-04-21T16:38:02.208] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:38:02.208] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:38:02.209] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:C:\Users\CY\Desktop\HelloHarmonyOS\entry\build\default\outputs\default\symbol cache.
+[2026-04-21T16:38:02.209] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2026-04-21T16:38:02.243] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-21T16:38:02.243] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Current resident worker size: 3.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T16:38:02.244] [DEBUG] debug-file - Current resident worker size: 3.
+[2026-04-21T16:38:02.247] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:38:02.248] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:38:02.245] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T16:38:02.246] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-04-21T16:38:02.247] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:38:02.248] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:38:02.250] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-21T16:38:02.250] [DEBUG] debug-file - worker[1] exits with exit code 1.
