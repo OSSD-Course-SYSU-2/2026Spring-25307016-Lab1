@@ -7,15 +7,13 @@
         "INCLUDE_IN_BUILD": true,
         "IS_COMMAND_LINE_ENTRY_MODULE": true,
         "MODULE_TYPE": "entry",
-        "INCREMENTAL_TASKS": {
-          "COMPILE_ARKTS": true
-        },
         "IS_INCREMENTAL_MODULE": true
       }
     ],
     "NATIVE_COMPILER": "Default",
     "IS_FULL_BUILD": false,
-    "BUILD_MODE": "debug"
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -24,22 +22,21 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf": {
-        "CreateModuleInfo": 1605800,
-        "ConfigureCmake": 668900,
-        "PreCheckSyscap": 980300,
-        "ProcessIntegratedHsp": 1467400,
-        "BuildNativeWithCmake": 577700,
-        "SyscapTransform": 35245200,
-        "ProcessStartupConfig": 4598800,
-        "BuildNativeWithNinja": 1212100,
-        "BuildJS": 3719500,
-        "CompileArkTS": 9131206500,
-        "ProcessCompiledResources": 951600,
-        "PackageHap": 428279300,
-        "PackingCheck": 7886300,
-        "SignHap": 3251700,
-        "CollectDebugSymbol": 1523200,
-        "assembleHap": 329300
+        "PreBuild": 389669100,
+        "CreateModuleInfo": 935400,
+        "ConfigureCmake": 582000,
+        "PreCheckSyscap": 442000,
+        "ProcessIntegratedHsp": 1275900,
+        "BuildNativeWithCmake": 870100,
+        "SyscapTransform": 6207600,
+        "ProcessStartupConfig": 3458700,
+        "BuildNativeWithNinja": 673000,
+        "BuildJS": 2484800,
+        "ProcessCompiledResources": 747600,
+        "PackingCheck": 4482500,
+        "SignHap": 2273800,
+        "CollectDebugSymbol": 1003800,
+        "assembleHap": 221500
       }
     },
     "APIS": [
@@ -50,7 +47,7 @@
       "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
     },
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202604211637491180",
-    "TOTAL_TIME": 13072066400
+    "TOTAL_TIME": 1097795600,
+    "BUILD_ID": "202606021804015620"
   }
 }

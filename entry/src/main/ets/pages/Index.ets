@@ -1,3 +1,5 @@
+import mediaquery from '@ohos.mediaquery';
+
 @Observed
 class GamePoint {
   x: number = 0;
@@ -47,7 +49,7 @@ struct RulesDialog {
           Text('4. 安全区：起点格（紫色）免疫被踢，棋子重叠显示。').width('100%')
           Text('5. 终点：刚好走到最后一步完成，超出则回退。').width('100%')
         }.width('100%')
-      }.height(150) // 修正：ArkTS 必须使用 height
+      }.height(150)
 
       Button('我知道了').margin({ top: 20 }).onClick((): void => { this.controller.close() })
     }.padding(20).backgroundColor(Color.White).borderRadius(15)
@@ -64,6 +66,10 @@ struct Index {
   @State canRoll: boolean = true
   @State allPlanes: Plane[] = []
 
+  // 多端部署核心：自适应大屏的状态变量
+  @State isLandscape: boolean = false
+  private listener = mediaquery.matchMediaSync('(orientation: landscape) and (min-width: 600vp)')
+
   private pathGrid: GamePoint[] = []
   private finalPaths: GamePoint[][] = [[], [], [], []]
   private startIndices: number[] = [49, 10, 23, 36]
@@ -74,8 +80,20 @@ struct Index {
     alignment: DialogAlignment.Center
   })
 
+  // 监听屏幕尺寸/方向变化
+  onOrientationChange = (mediaQueryResult: mediaquery.MediaQueryResult) => {
+    this.isLandscape = mediaQueryResult.matches
+  }
+
   aboutToAppear(): void {
     this.initGame()
+    // 绑定多端部署监听器
+    this.listener.on('change', this.onOrientationChange)
+    this.isLandscape = this.listener.matches
+  }
+
+  aboutToDisappear(): void {
+    this.listener.off('change', this.onOrientationChange)
   }
 
   initGame(): void {
@@ -200,23 +218,35 @@ struct Index {
   }
 
   build() {
-    Column() {
-      Row({ space: 10 }) {
-        Button('游戏规则')
-          .fontSize(14)
-          .backgroundColor(Color.Gray)
-          .height(40)
-          .onClick((): void => { this.dialogController.open() })
+    // 界面级“一多”核心：通过FlexDirection.Row（横屏平板）或Column（竖屏手机）自适应
+    Flex({
+      direction: this.isLandscape ? FlexDirection.Row : FlexDirection.Column,
+      justifyContent: FlexAlign.Center,
+      alignItems: ItemAlign.Center
+    }) {
 
-        Text(`轮到：${this.players[this.currentPlayer]}`)
-          .fontSize(18)
-          .fontColor(this.playerColors[this.currentPlayer])
-          .fontWeight(FontWeight.Bold)
-      }.margin({ top: 15, bottom: 10 })
+      // 控制面板模块
+      Column() {
+        Row({ space: 10 }) {
+          Button('游戏规则')
+            .fontSize(14)
+            .backgroundColor(Color.Gray)
+            .height(40)
+            .onClick((): void => { this.dialogController.open() })
 
-      Button(`掷骰子: ${this.dice === 0 ? '?' : this.dice.toString()}`)
-        .width(160).height(50).onClick((): void => { this.rollDice() }).margin(10)
+          Text(`轮到：${this.players[this.currentPlayer]}`)
+            .fontSize(18)
+            .fontColor(this.playerColors[this.currentPlayer])
+            .fontWeight(FontWeight.Bold)
+        }.margin({ top: 15, bottom: 10 })
 
+        Button(`掷骰子: ${this.dice === 0 ? '?' : this.dice.toString()}`)
+          .width(160).height(50).onClick((): void => { this.rollDice() }).margin(10)
+      }
+      .padding(this.isLandscape ? 20 : 0)
+      .margin(this.isLandscape ? { right: 20 } : { bottom: 10 })
+
+      // 棋盘模块
       Stack() {
         ForEach(this.pathGrid, (pos: GamePoint, index: number) => {
           Rect().width(19).height(19)
@@ -242,6 +272,7 @@ struct Index {
         }, (p: Plane): string => p.id + p.position.toString())
       }
       .width(300).height(300).backgroundColor('#F5F5F5').border({ width: 2 })
-    }.width('100%').height('100%')
+
+    }.width('100%').height('100%').backgroundColor('#FAFAFA')
   }
 }
