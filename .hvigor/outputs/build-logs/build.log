@@ -11360,3 +11360,19 @@ Require stack:
   hotReloadBuild: undefined,
   customizedParam: undefined
 }
+[2026-06-18T02:00:37.501] [DEBUG] debug-file - session manager: set active socket. socketId=vPmBq2FMmxuOdob3AAAn
+[2026-06-18T02:00:37.584] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-18T02:00:37.631] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-18T02:00:37.648] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
