@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fb4f27-723c-4097-9eb3-12945ac81500" name="Changes" comment="" />
+    <list default="true" id="91fb4f27-723c-4097-9eb3-12945ac81500" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验报告_基于ArkUI的全功能自适应疯狂飞行棋游戏开发与敏捷重构.docx" beforeDir="false" afterPath="$PROJECT_DIR$/实验报告_基于ArkUI的全功能自适应疯狂飞行棋游戏开发与敏捷重构.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "127.0.0.1:5555": "5377474181781717914522",
+    "127.0.0.1:5555": "5369588911781719242887",
     "Application.entry.executor": "Run",
     "MODULE_HAP_TIME": "{\"127.0.0.1:5555entry\":\"2026-06-17T17:19:40.851227600Z\"}",
     "RunOnceActivity.ShowReadmeOnStart": "true",
