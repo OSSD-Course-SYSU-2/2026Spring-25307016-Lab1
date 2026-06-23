@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fb4f27-723c-4097-9eb3-12945ac81500" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180007525450.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180016046510.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180026485200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180035380410.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180111054640.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report-202606180119389260.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-profile.json5" beforeDir="false" afterPath="$PROJECT_DIR$/build-profile.json5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实验报告_基于ArkUI的全功能自适应疯狂飞行棋游戏开发与敏捷重构.docx" beforeDir="false" afterPath="$PROJECT_DIR$/实验报告_基于ArkUI的全功能自适应疯狂飞行棋游戏开发与敏捷重构.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +26,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HiLogStateProjectLevelPreference">
+    <panelStates>
+      <hilogPanelState>
+        <option name="logPanelType" value="ONLINE" />
+        <option name="processName" value="com.example.helloharmonyos" />
+      </hilogPanelState>
+    </panelStates>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -23,20 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "127.0.0.1:5555": "5369588911781719242887",
-    "Application.entry.executor": "Run",
-    "MODULE_HAP_TIME": "{\"127.0.0.1:5555entry\":\"2026-06-17T17:19:40.851227600Z\"}",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "ace.nodejs.version": "18.20.1",
-    "git-widget-placeholder": "lab1-retry",
-    "last_opened_file_path": "C:/Users/CY/Desktop/HelloHarmonyOS",
-    "projectSizeLastTraceTimestamp-319186f6acbbba8d007001d25440a53abe4fc4015232d3aadfbf13a85c79": "1781604062837",
-    "projectSizeLastTraceTimestamp-378f0b3bfb61956992e3f7cd7f4b1546048b5954c5037d61ce2bcca25afc": "1781603985012"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;127.0.0.1:5555&quot;: &quot;5377543231782206653074&quot;,
+    &quot;Application.entry.executor&quot;: &quot;Run&quot;,
+    &quot;MODULE_HAP_TIME&quot;: &quot;{\&quot;127.0.0.1:5555entry\&quot;:\&quot;2026-06-23T09:20:37.768125900Z\&quot;}&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ace.nodejs.version&quot;: &quot;18.20.1&quot;,
+    &quot;auto_debug_bundleName&quot;: &quot;0000002A6D07B486D3F36B40A6FA1733D66E2C1CF06F7C2D96BAFFF54964D093080C9E11BC2A75C2619EE4A0B341284DB36B2FF56E4F7652A82A&quot;,
+    &quot;auto_debug_cert_list&quot;: &quot;00000023BC5EF089379502A6EF22CD67A14E15E8CAB13A0C5B6FB862DE8584BAC9869FF5B7D4411EC3B078757CF998B9AC2BA2&quot;,
+    &quot;auto_debug_device_list&quot;: &quot;000000235724CD85816259C54C0C2FD45703EE2D20D96626E1ACEB9C7C3F435EAA0B8CB0412748AE8F2127F64EF5F9DF46304E&quot;,
+    &quot;auto_debug_package_name&quot;: &quot;0000002A2AB4B7CCDF6E4C4493BED4E8838DAAC348F22ECE1C3D082570368004086AE0B11FAFBBC14C00F428532AB341AF1C2F0EF6AF4F2CEB26&quot;,
+    &quot;auto_debug_team_id&quot;: &quot;00000021CE5BF71B0188D60A09562AD6F327301EC7DCFFB5E3AAB425FE167F284B055573C3A26A9D719317FA087F125645&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab1-retry&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CY/Desktop/HelloHarmonyOS&quot;,
+    &quot;projectSizeLastTraceTimestamp-319186f6acbbba8d007001d25440a53abe4fc4015232d3aadfbf13a85c79&quot;: &quot;1782207883970&quot;,
+    &quot;projectSizeLastTraceTimestamp-378f0b3bfb61956992e3f7cd7f4b1546048b5954c5037d61ce2bcca25afc&quot;: &quot;1781603985012&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.huawei.deveco.sdkmanager.hos.idea.ui.SdkConfigProvider&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;reqPermissions&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.entry">
     <configuration name="entry" type="HotReLoadTask" factoryName="Hot Reload">
       <MODULE_NAME />
@@ -71,6 +100,13 @@
         <option name="Build.Hvigor.HotReloadBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloHarmonyOS [assembleHap]" type="HvigorRunConfiguration" factoryName="HvigorRunConfiguration" temporary="true">
+      <option name="applicationParameters" value="--mode module -p product=default assembleHap --analyze=normal --parallel --incremental" />
+      <option name="nodeInterpreter" value="$PROJECT_DIR$/../../../../Program Files/Huawei/DevEco Studio\tools\node" />
+      <option name="scriptFile" value="$PROJECT_DIR$/../../../../Program Files/Huawei/DevEco Studio\tools\hvigor\bin\hvigorw.js" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="entry" type="OhosDebugTask" factoryName="OpenHarmony App">
       <MODULE_NAME>entry</MODULE_NAME>
       <REINSTALL_APPLICATION>true</REINSTALL_APPLICATION>
@@ -103,6 +139,11 @@
         <option name="Build.Hvigor.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Hvigor.HelloHarmonyOS [assembleHap]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
